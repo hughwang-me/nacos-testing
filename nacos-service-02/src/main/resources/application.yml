@@ -1,0 +1,9 @@
+server:
+  port: 9082
+spring:
+  application:
+    name: nacos-service-02
+  cloud:
+    nacos:
+      discovery:
+        server-addr: uwjx.com:8848
