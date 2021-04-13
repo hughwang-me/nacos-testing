@@ -11,6 +11,15 @@ spring:
       discovery:
         locator:
           enabled: true
+#      routes:
+#        - id: s1_route
+#          uri: lb://nacos-service-01
+#          predicates:
+#            - Path=/s1/**
+#        - id: s2_route
+#          uri: lb://nacos-service-02
+#          predicates:
+#            - Path=/s2/**
 management:
   endpoints:
     web:
